@@ -1,0 +1,74 @@
+# Electricity Access in Africa (2000–2023)  
+*A Data Analysis and Visualization Project Using SQL & Power BI*
+
+## 🔍 Project Overview
+
+This project analyzes trends in electricity access across African countries from 2000 to 2023. Using data from the World Bank, it highlights disparities between rural and urban areas, identifies top and bottom performers, and explores correlations with GDP per capita. The insights aim to support data-driven decisions in energy access, policy-making, and sustainable development.
+
+---
+
+## 🗂️ Dataset Sources
+
+- [World Bank Open Data](https://data.worldbank.org/)
+- CSVs Used:
+  - **API_EG.ELC.ACCS.ZS_DS2** — Total electricity access (% of population)
+  - **API_EG.ELC.ACCS.RU.ZS_DS2** — Rural electricity access
+  - **API_EG.ELC.ACCS.UR.ZS_DS2** — Urban electricity access
+  - **API_EG.USE.ELEC.KH.PC_DS2** — Electricity consumption per capita (kWh)
+  - **API_NY.GDP.PCAP.CD_DS2** — GDP per capita (USD)
+  - Regional mapping file (custom)
+
+---
+
+## ❓ Key Questions Answered
+
+1. What is the trend of total electricity access in Kenya from 2000 to 2023?
+2. How does rural and urban electricity access compare in Kenya over time?
+3. Which African countries have the highest and lowest rural access in 2023?
+4. How has electricity access improved from 2000 to 2023 across Africa?
+5. How many African countries had access levels above 80% or below 50% in 2023?
+6. Which countries show urban–rural electricity access gaps?
+7. How does electricity consumption per capita relate to GDP per capita?
+
+---
+
+## 🛠 Tools & Skills Used
+
+- **SQL (MySQL Workbench)**  
+  Joins, subqueries, grouping, window functions, date filtering
+
+- **Power BI**  
+  Interactive dashboards, bar charts, line charts, slicers, tooltips, formatting
+
+- **Excel (for light preprocessing)**  
+  Cleaned column names, filtered year ranges, added region mappings
+
+---
+
+## 📊 Insights Discovered
+
+- Kenya has made consistent improvements in electricity access, especially in rural areas.
+- Libya is the only African country where access levels declined from 2000 to 2023.
+- In 2023, over 15 African countries had rural electricity access below 30%.
+- Urban–rural disparities remain significant in countries like Chad and Niger.
+- Countries with high GDP per capita tend to have higher electricity consumption and access.
+
+---
+
+## 📁 Files in This Repository
+
+- `sql/` — All SQL queries used for analysis
+- `Electricity_Access_Africa.pbix` — Power BI dashboard file
+- `data/` — Cleaned CSV datasets
+- `README.md` — Project overview and documentation
+
+---
+
+## 🌍 Author
+
+**Collins Njehya**  
+Renewable Energy & Environmental Physics | Data Analyst  
+[LinkedIn](#) | [Portfolio](#) | [Email](#)
+
+---
+
